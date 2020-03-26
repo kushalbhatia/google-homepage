@@ -1,41 +1,48 @@
-header img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 250px;
+.image {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.search {
+  text-align: center;
   position: relative;
-  text-decoration: none;
+  width: 600px;
+  padding-top: 6px;
+  margin: 0 auto;
+}
+
+.searchbar {
+  text-align: center;
+  position: relative;
 }
 
 ul {
-    list-style-type: none;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
 
-.topleft{
-    float: left;
-  }
+a {
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+}
+
+.topleft {
+  float: left;
+}
 
 .topright {
-    float: right;
+  float: right;
 }
 
 .bottomleft {
-    float: left;
+  float: left;
+  padding-top: 400px;
 }
 
 .bottomright {
-    float: right;
-}
-  
-a {
-    display: block;
-    padding: 8px;
-    background-color: white;
-  }
-
-div {
-    text-align: center;
+  float: right;
+  padding-top: 400px;
 }

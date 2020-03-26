@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
@@ -16,21 +16,22 @@
                 <li><a class="topright" href="mail.google.com">Gmail</a></li>
               </ul>
         </nav>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-        <br>
     </header>
-        <div>
-            <form action="process.php" method="POST">
+   
+    <div class="image">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    </div>
+    <br>
+    <div class="search">
+        <form action="process.php" method="POST">
             <input type="text" class="search">
-            </form>
-        </div>
-        <br>
-
-        <div>
-            <input type="button" value="Google Search">
-            <input type="button" value="I'm Feeling Lucky">
-        </div>
-        <br>
+        </form>
+    </div>
+    <br>
+    <div class="searchbar">
+        <input type="button" value="Google Search">
+        <input type="button" value="I'm Feeling Lucky">
+    </div>
 
     <footer>
         <nav>
@@ -44,5 +45,6 @@
               </ul>
         </nav>
     </footer>
+
 </body>
 </html>
